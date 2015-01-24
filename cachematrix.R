@@ -3,6 +3,9 @@
 
 ## Write a short comment describing this function
 
+## makeCacheMatrix function takes the Input Matrix and contains function 
+##which sets and gets the matrix inverse if already exists
+
 makeCacheMatrix <- function (x = matrix()) {
   ## This is the Input Matrix assigning initial value as  NULL
   
@@ -31,7 +34,10 @@ makeCacheMatrix <- function (x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+
+## cacheSolve function checks the input matrix in above function 
+##already exists in getInverseMatrix of above function and if exists get the value else calculate the inverse of the input matrix
+## and print the inverse matrix
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
